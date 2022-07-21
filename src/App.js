@@ -51,7 +51,7 @@ class Image extends React.Component {
         <Container fluid>
           <Row>
             {this.state.char.map((char) => (
-              <Col lg="4" className="vh-100 d-flex justify-content-center align-items-center">
+              <Col lg="4" className="vh-50 d-flex justify-content-center align-items-center">
                 <Figure className="text-center">
                   <Figure.Image width={171} height={180} alt="171x180" src={char.image} />
                   <Figure.Caption>{char.name}</Figure.Caption>
