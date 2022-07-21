@@ -38,8 +38,6 @@ class Image extends React.Component {
         val.push(e);
       });
 
-      console.log(this.state.name);
-
       this.setState({ char: val });
     });
   }
